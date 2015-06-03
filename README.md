@@ -9,16 +9,18 @@ This is a quick code to check if ssh keys available on a Gitlab server is expose
     
 ## Configuration
 
-create a config.json file in the $GOPATH/src/github.com/ekino/gitlab-ssh-key-check folder
+create a config.json file in the ``$GOPATH/src/github.com/ekino/gitlab-ssh-key-check folder``
 
 The configuration is:
 
-{
-  "host": "https://your.gitlab-server.com",
-  "api_path": "/api/v3",
-  "token": "your admin api token",
-  "weak_key": 1023
-}
+    ```json
+    {
+      "host": "https://your.gitlab-server.com",
+      "api_path": "/api/v3",
+      "token": "your admin api token",
+      "weak_key": 1023
+    }
+    ```
 
 
 ## Usage
