@@ -2,6 +2,11 @@
 
 This is a quick code to check if ssh keys available on a Gitlab server is exposed to similar thread as described in the blog ["Auditing GitHub users’ SSH key quality"](https://blog.benjojo.co.uk/post/auditing-github-users-keys).
 
+## Requirements
+
+* ``ssh-keygen`` command available in your path
+* ``go`` command available in your path
+
 ## Installation
 
     go get github.com/ekino/gitlab-ssh-key-check
